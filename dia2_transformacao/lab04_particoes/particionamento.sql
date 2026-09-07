@@ -1,0 +1,2 @@
+-- Particionamento físico Raw por year e month é executado em pipeline.py.
+-- O dia permanece como coluna para análises sem criar excesso de arquivos.

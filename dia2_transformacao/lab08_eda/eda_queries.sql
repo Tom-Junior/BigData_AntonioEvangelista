@@ -1,0 +1,2 @@
+-- As cinco perguntas são materializadas por avaliacao_final/etapa3_analise/analises.py.
+-- Saídas: segmento, canal, categoria, temporal e período/faixa de valor.

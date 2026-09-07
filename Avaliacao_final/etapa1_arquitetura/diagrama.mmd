@@ -1,0 +1,19 @@
+flowchart LR
+  A[TechPay: app, web, POS, ATM] --> B[Ingestão local: CSV + DuckDB]
+  B --> C[Raw: CSV/Parquet<br/>schema explícito<br/>partição ano/mês]
+  C --> D[Bronze: DuckDB<br/>Parquet<br/>deduplicação e regras de qualidade]
+  D --> E[Silver: DuckDB<br/>Parquet<br/>JOIN cliente + derivados<br/>channel e merchant_category]
+  E --> F1[Gold risco por segmento<br/>Parquet/CSV]
+  E --> F2[Gold canal e categoria<br/>Parquet/CSV]
+  E --> F3[Gold métricas diárias<br/>Parquet/CSV]
+  F1 --> G[Dashboard Plotly HTML<br/>KPIs, tendência, composição, detalhe]
+  F2 --> G
+  F3 --> G
+  G --> H[Decisão: priorizar revisão<br/>por segmento, canal e categoria]
+  style A fill:#0b7285,color:#fff
+  style D fill:#74c69d,color:#111
+  style E fill:#52b788,color:#111
+  style F1 fill:#ffd166,color:#111
+  style F2 fill:#ffd166,color:#111
+  style F3 fill:#ffd166,color:#111
+  style G fill:#ef8354,color:#111

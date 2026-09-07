@@ -1,0 +1,2 @@
+-- Equivalente DuckDB executado em pipeline.py: raw_transactions e raw_customers.
+-- O schema explícito está documentado no script da Etapa 2.
