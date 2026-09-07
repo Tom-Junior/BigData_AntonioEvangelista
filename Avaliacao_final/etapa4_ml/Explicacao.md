@@ -21,7 +21,3 @@ Um coeficiente positivo indica associação com maior probabilidade estimada de 
 A Random Forest utiliza 30 árvores, equivalente ao requisito `numTrees=30`. A AUC dos dois modelos está em `metricas_modelos.csv`, enquanto as importâncias das variáveis estão em `importancias_random_forest.csv`.
 
 A comparação entre os modelos permite avaliar se uma relação não linear melhora a ordenação dos casos suspeitos. A AUC mede a capacidade de ranking, mas não determina sozinha o limiar operacional. Antes de uma implantação real, seria necessário estimar custos de fraude não detectada, custo de revisão e impacto na experiência do cliente.
-
-## Artefatos da etapa
-
-- [Código dos modelos](Avaliacao_final/etapa4_ml/modelo_fraude.py)
