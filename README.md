@@ -19,7 +19,7 @@ Equipe: <strong>Antônio Evangelista Ribeiro Júnior e David Herbet Lima de Paiv
 </p>
 
 
-> ## [Dashboard com as Análises](https://tom-junior.github.io/BigData_AntonioEvangelista/Avaliacao_final/etapa3_analise/dashboard.html/)
+> ## [Dashboard com as Análises](https://tom-junior.github.io/BigData_AntonioEvangelista/Avaliacao_final/etapa3_analise/dashboard.html)
 
 
 
