@@ -24,9 +24,4 @@ A comparação entre os modelos permite avaliar se uma relação não linear mel
 
 ## Artefatos da etapa
 
-- [Código completo dos modelos](modelo_fraude.py)
-- [Explicação detalhada](explicacao.md)
-- [Métricas dos modelos](metricas_modelos.csv)
-- [Matriz de confusão](matriz_confusao_logistica.csv)
-- [Coeficientes da Regressão Logística](coeficientes_logistica.csv)
-- [Importâncias da Random Forest](importancias_random_forest.csv)
+- [Código dos modelos](Avaliacao_final/etapa4_ml/modelo_fraude.py)
