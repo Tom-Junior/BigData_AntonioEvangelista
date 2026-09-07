@@ -12,6 +12,9 @@
   <img src="https://img.shields.io/badge/Status-complete-1B998B" alt="Status">
 </p>
 
+## - [Dashboard com as Análises](https://tom-junior.github.io/BigData_AntonioEvangelista/)
+
+
 ## 1. Visão geral
 
 Este repositório contém a implementação do **Projeto Final de Big Data**, aplicada ao cenário fictício da fintech **TechPay**.
@@ -525,4 +528,10 @@ A principal recomendação de negócio é priorizar controles no segmento **High
   <a href="https://github.com/Tom-Junior">GitHub: Tom-Junior</a>
   &nbsp; | &nbsp;
   <a href="https://www.linkedin.com/in/antonioerjunior/">LinkedIn: antonioerjunior</a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/DavidLih">GitHub: DavidLih</a>
+  &nbsp; | &nbsp;
+  <a href="https://www.linkedin.com/in/david-herbet-2312b02a/">LinkedIn: david-herbet-2312b02a</a>
 </p>
