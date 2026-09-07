@@ -493,7 +493,7 @@ O dashboard é um HTML standalone e não precisa de servidor web.
 
 ## 12. Entregáveis da avaliação
 
-- [Arquitetura e justificativa](Avaliacao_final/etapa1_arquitetura/justificativa_da_arquitetura.md)
+- [Arquitetura e justificativa](Avaliacao_final/etapa1_arquitetura/Justificativa_da_arquitetura.md)
 - [Diagrama da arquitetura](Avaliacao_final/etapa1_arquitetura/diagrama.png)
 - [Pipeline completo](Avaliacao_final/etapa2_bigdata/pipeline.py)
 - [Explicação do pipeline](Avaliacao_final/etapa2_bigdata/Relatorio.md)
