@@ -19,7 +19,7 @@ Equipe: <strong>Antônio Evangelista Ribeiro Júnior e David Herbet Lima de Paiv
 </p>
 
 
-> ## [Dashboard com as Análises](https://tom-junior.github.io/BigData_AntonioEvangelista/Avaliacao_final/etapa3_analise/dashboard.html)
+> ## [Dashboard Interativo](https://tom-junior.github.io/BigData_AntonioEvangelista/Avaliacao_final/etapa3_analise/dashboard.html)
 
 
 
@@ -509,7 +509,7 @@ O dashboard é um HTML standalone e não precisa de servidor web.
 - [Pipeline completo](Avaliacao_final/etapa2_bigdata/pipeline.py)
 - [Explicação do pipeline](Avaliacao_final/etapa2_bigdata/Relatorio.md)
 - [Código das análises](Avaliacao_final/etapa3_analise/analises.py)
-- [Dashboard interativo](Avaliacao_final/etapa3_analise/dashboard.html)
+- [Dashboard interativo](https://tom-junior.github.io/BigData_AntonioEvangelista/Avaliacao_final/etapa3_analise/dashboard.html)
 - [Ideia de BI e achados](Avaliacao_final/etapa3_analise/Relatorio_Analises_IdeiaBI.md)
 - [Modelos de fraude](Avaliacao_final/etapa4_ml/modelo_fraude.py)
 - [Explicação dos modelos](Avaliacao_final/etapa4_ml/Explicacao.md)
