@@ -23,9 +23,3 @@ Se o volume crescer cem vezes, o primeiro risco é a sobrecarga de um único dis
 ## Mudança para fraude em tempo real
 
 Para detecção em tempo real, o bloco de entrada deixaria de depender somente de arquivos em lote. Um barramento de eventos, como Kafka, receberia cada transação; um motor de processamento contínuo calcularia atributos e aplicaria regras ou modelo; e uma camada de serving de baixa latência retornaria aprovar, negar ou encaminhar para revisão. O fluxo batch atual continuaria útil para histórico, treinamento e auditoria, mas o dashboard passaria a consumir também uma camada operacional atualizada continuamente.
-
-## Referências
-
-[1]: ../../AVALIACAO_PROJETO_FINAL.md "Avaliação Final — Big Data para Negócios"
-
-[2]: ../../00_ESTRUTURA_REPOSITORIO.md "Estrutura do Repositório"
