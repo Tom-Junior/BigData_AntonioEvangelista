@@ -288,7 +288,7 @@ O layout do dashboard foi configurado para ser responsivo e interativo.
 
 ### 8.1 Modelos
 
-O arquivo principal é [modelo_fraude.py](avaliacao_final/etapa4_ml/modelo_fraude.py). O Lab 12 possui uma implementação completa e independente em [dia3_insights_bi/lab12_ml_preview/modelo_fraude.py](dia3_insights_bi/lab12_ml_preview/modelo_fraude.py).
+O arquivo principal é [modelo_fraude.py](Avaliacao_final/etapa4_ml/modelo_fraude.py). O Lab 12 possui uma implementação completa e independente em [dia3_insights_bi/lab12_ml_preview/modelo_fraude.py](dia3_insights_bi/lab12_ml_preview/modelo_fraude.py).
 
 Foram implementados:
 
