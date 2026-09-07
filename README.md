@@ -231,7 +231,7 @@ O pipeline gera:
 - [Ideia de BI e achados](Avaliacao_final/etapa3_analise/Relatorio_Analises_IdeiaBI.md)
 - [Dashboard HTML](Avaliacao_final/etapa3_analise/dashboard.html)
 
-O dashboard possui tema tecnológico futurista, paleta escura com elementos ciano, verde, azul e roxo, e identidade visual relacionada a dados, tecnologia e sustentabilidade. O layout foi configurado para ser responsivo e interativo.
+O layout do dashboard foi configurado para ser responsivo e interativo.
 
 ### 7.2 Indicadores gerais
 
