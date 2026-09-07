@@ -171,7 +171,7 @@ A base principal é `avaliacao_transactions.csv`, com transações da TechPay. A
 
 - [Diagrama em PNG](Avaliacao_final\etapa1_arquitetura\diagrama.png)
 - [Diagrama editável Mermaid](Avaliacao_final\etapa1_arquitetura\diagrama.mmd)
-- [Justificativa técnica](Avaliacao_final\etapa1_arquitetura\Justificativa da arquitetura.md)
+- [Justificativa Técnica](Avaliacao_final\etapa1_arquitetura\Justificativa_da_arquitetura.md)
 
 ### 5.2 Decisões arquiteturais
 
