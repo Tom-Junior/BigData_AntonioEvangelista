@@ -226,10 +226,10 @@ O pipeline gera:
 
 ### 7.1 Código e relatório
 
-- [Código das análises](avaliacao_final/etapa3_analise/analises.py)
-- [Consultas documentadas](avaliacao_final/etapa3_analise/analises.sql)
-- [Ideia de BI e achados](avaliacao_final/etapa3_analise/ideia_bi.md)
-- [Dashboard HTML](avaliacao_final/etapa3_analise/dashboard.html)
+- [Código das análises](Avaliacao_final/etapa3_analise/analises.py)
+- [Consultas documentadas](Avaliacao_final/etapa3_analise/analises.sql)
+- [Ideia de BI e achados](Avaliacao_final/etapa3_analise/Relatorio_Analises_IdeiaBI.md)
+- [Dashboard HTML](Avaliacao_final/etapa3_analise/dashboard.html)
 
 O dashboard possui tema tecnológico futurista, paleta escura com elementos ciano, verde, azul e roxo, e identidade visual relacionada a dados, tecnologia e sustentabilidade. O layout foi configurado para ser responsivo e interativo.
 
