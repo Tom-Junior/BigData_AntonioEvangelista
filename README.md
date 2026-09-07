@@ -1,8 +1,14 @@
 # TechPay — Projeto Final de Big Data para Negócios
 
 <p align="center">
+Equipe: <strong>Antônio Evangelista Ribeiro Júnior e David Herbet Lima de Paiva</strong>
+</p>
+
+
+<p align="center">
   <strong>Pipeline de dados, análise de risco, dashboard antifraude e modelos de Machine Learning</strong>
 </p>
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python">
@@ -12,7 +18,9 @@
   <img src="https://img.shields.io/badge/Status-complete-1B998B" alt="Status">
 </p>
 
-## - [Dashboard com as Análises](https://tom-junior.github.io/BigData_AntonioEvangelista/)
+
+> ## [Dashboard com as Análises](https://tom-junior.github.io/BigData_AntonioEvangelista/Avaliacao_final/etapa3_analise/dashboard.html/)
+
 
 
 ## 1. Visão geral
