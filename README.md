@@ -522,9 +522,3 @@ A principal recomendação de negócio é priorizar controles no segmento **High
   &nbsp; | &nbsp;
   <a href="https://www.linkedin.com/in/antonioerjunior/">LinkedIn: antonioerjunior</a>
 </p>
-
-## Referências do projeto
-
-[1]: AVALIACAO_PROJETO_FINAL.md "Avaliação Final — Big Data para Negócios"
-
-[2]: 00_ESTRUTURA_REPOSITORIO.md "Estrutura do Repositório"
