@@ -245,7 +245,7 @@ O pipeline gera:
 - [Código das análises](Avaliacao_final/etapa3_analise/analises.py)
 - [Consultas SQL das análises](Avaliacao_final/etapa3_analise/analises.sql)
 - [Ideia de BI e achados](Avaliacao_final/etapa3_analise/Relatorio_Analises_IdeiaBI.md)
-- [Dashboard HTML](Avaliacao_final/etapa3_analise/dashboard.html)
+- [Dashboard HTML](https://tom-junior.github.io/BigData_AntonioEvangelista/Avaliacao_final/etapa3_analise/dashboard.html)
 
 O layout do dashboard foi configurado para ser responsivo e interativo.
 
