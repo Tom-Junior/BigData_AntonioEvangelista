@@ -203,7 +203,7 @@ Para fraude em tempo real, o desenho seria complementado por barramento de event
 
 ### 6.1 Código principal
 
-O pipeline completo está em [pipeline.py](avaliacao_final/etapa2_bigdata/pipeline.py).
+O pipeline completo está em [pipeline.py](Avaliacao_final/etapa2_bigdata/pipeline.py).
 
 Ele executa:
 
