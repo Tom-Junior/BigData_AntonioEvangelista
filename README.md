@@ -127,7 +127,12 @@ BigData_AntonioEvangelista/
     │   └── ideia_bi.md
     └── etapa4_ml/
         ├── modelo_fraude.py
-        └── explicacao.md
+        ├── justificativa.md
+        ├── explicacao.md
+        ├── metricas_modelos.csv
+        ├── matriz_confusao_logistica.csv
+        ├── coeficientes_logistica.csv
+        └── importancias_random_forest.csv
 ```
 
 Os arquivos derivados, como Parquet, banco DuckDB local, CSVs de saída e caches Python, são gerados durante a execução e protegidos pelo `.gitignore` quando apropriado.
@@ -329,8 +334,8 @@ A seed `42` foi utilizada para tornar a divisão treino/teste e os modelos repro
 
 ### 9.1 Estrutura recomendada
 
-```text
-J:\BigData_AntonioEvangelista\
+```
+C:\DIRETORIO_PASTA\
 ├── avaliacao_final\
 ├── bigdata\
 └── datasets\
@@ -341,47 +346,47 @@ J:\BigData_AntonioEvangelista\
 ### 9.2 Instalar dependências
 
 ```powershell
-& J:\Python\python.exe -m pip install duckdb pyarrow pandas plotly scikit-learn
+& C:\Python\python.exe -m pip install duckdb pyarrow pandas plotly scikit-learn
 ```
 
 ### 9.3 Definir explicitamente o diretório dos dados
 
 ```powershell
-$env:TECHPAY_DATA_DIR = "J:\BigData_AntonioEvangelista\datasets"
+$env:TECHPAY_DATA_DIR = "C:\DIRETORIO_PASTA\datasets"
 ```
 
 ### 9.4 Executar o pipeline
 
 ```powershell
-& J:\Python\python.exe `
-  "J:\BigData_AntonioEvangelista\avaliacao_final\etapa2_bigdata\pipeline.py"
+& C:\Python\python.exe `
+  "C:\DIRETORIO_PASTA\avaliacao_final\etapa2_bigdata\pipeline.py"
 ```
 
 A saída inicial deve informar os caminhos encontrados:
 
 ```text
-Base de transações: J:\BigData_AntonioEvangelista\datasets\avaliacao_transactions.csv
-Base de clientes: J:\BigData_AntonioEvangelista\datasets\customers_synthetic.csv
+Base de transações: C:\DIRETORIO_PASTA\datasets\avaliacao_transactions.csv
+Base de clientes: C:\DIRETORIO_PASTA\datasets\customers_synthetic.csv
 ```
 
 ### 9.5 Executar as análises e gerar o dashboard
 
 ```powershell
-& J:\Python\python.exe `
-  "J:\BigData_AntonioEvangelista\avaliacao_final\etapa3_analise\analises.py"
+& C:\Python\python.exe `
+  "C:\DIRETORIO_PASTA\avaliacao_final\etapa3_analise\analises.py"
 ```
 
 O dashboard será salvo em:
 
 ```text
-J:\BigData_AntonioEvangelista\avaliacao_final\etapa3_analise\dashboard.html
+C:\DIRETORIO_PASTA\avaliacao_final\etapa3_analise\dashboard.html
 ```
 
 ### 9.6 Executar os modelos
 
 ```powershell
-& J:\Python\python.exe `
-  "J:\BigData_AntonioEvangelista\avaliacao_final\etapa4_ml\modelo_fraude.py"
+& C:\Python\python.exe `
+  "C:\DIRETORIO_PASTA\avaliacao_final\etapa4_ml\modelo_fraude.py"
 ```
 
 ## 10. Como executar no Jupyter Notebook
@@ -397,7 +402,7 @@ Defina a raiz do projeto:
 ```python
 from pathlib import Path
 
-ROOT = Path(r"J:\BigData_AntonioEvangelista")
+ROOT = Path(r"C:\DIRETORIO_PASTA")
 %cd {ROOT}
 ```
 
@@ -434,7 +439,7 @@ IFrame(
 Defina o diretório explicitamente:
 
 ```powershell
-$env:TECHPAY_DATA_DIR = "J:\BigData_AntonioEvangelista\datasets"
+$env:TECHPAY_DATA_DIR = "C:\DIRETORIO_PASTA\datasets"
 ```
 
 Depois execute novamente o pipeline.
@@ -445,7 +450,7 @@ Confirme que o arquivo existe:
 
 ```powershell
 Test-Path `
-  "J:\BigData_AntonioEvangelista\avaliacao_final\etapa4_ml\modelo_fraude.py"
+  "C:\DIRETORIO_PASTA\avaliacao_final\etapa4_ml\modelo_fraude.py"
 ```
 
 O resultado esperado é `True`.
@@ -456,7 +461,7 @@ Execute primeiro o pipeline:
 
 ```powershell
 & J:\Python\python.exe `
-  "J:\BigData_AntonioEvangelista\avaliacao_final\etapa2_bigdata\pipeline.py"
+  "C:\DIRETORIO_PASTA\avaliacao_final\etapa2_bigdata\pipeline.py"
 ```
 
 Somente depois execute as análises e os modelos.
@@ -481,23 +486,22 @@ Confirme que o arquivo foi gerado:
 
 ```powershell
 Test-Path `
-  "J:\BigData_AntonioEvangelista\avaliacao_final\etapa3_analise\dashboard.html"
+  "C:\DIRETORIO_PASTA\avaliacao_final\etapa3_analise\dashboard.html"
 ```
 
 O dashboard é um HTML standalone e não precisa de servidor web.
 
 ## 12. Entregáveis da avaliação
 
-- [Arquitetura e justificativa](avaliacao_final/etapa1_arquitetura/justificativa.md)
-- [Diagrama da arquitetura](avaliacao_final/etapa1_arquitetura/diagrama.png)
-- [Pipeline completo](avaliacao_final/etapa2_bigdata/pipeline.py)
-- [Explicação do pipeline](avaliacao_final/etapa2_bigdata/explicacao.md)
-- [Código das análises](avaliacao_final/etapa3_analise/analises.py)
-- [Dashboard interativo](avaliacao_final/etapa3_analise/dashboard.html)
-- [Ideia de BI e achados](avaliacao_final/etapa3_analise/ideia_bi.md)
-- [Modelos de fraude](avaliacao_final/etapa4_ml/modelo_fraude.py)
-- [Explicação dos modelos](avaliacao_final/etapa4_ml/explicacao.md)
-- [Guia passo a passo](GUIA_EXECUCAO_PASSO_A_PASSO.md)
+- [Arquitetura e justificativa](Avaliacao_final/etapa1_arquitetura/justificativa_da_arquitetura.md)
+- [Diagrama da arquitetura](Avaliacao_final/etapa1_arquitetura/diagrama.png)
+- [Pipeline completo](Avaliacao_final/etapa2_bigdata/pipeline.py)
+- [Explicação do pipeline](Avaliacao_final/etapa2_bigdata/Relatorio.md)
+- [Código das análises](Avaliacao_final/etapa3_analise/analises.py)
+- [Dashboard interativo](Avaliacao_final/etapa3_analise/dashboard.html)
+- [Ideia de BI e achados](Avaliacao_final/etapa3_analise/Relatorio_Analises_IdeiaBI.md)
+- [Modelos de fraude](Avaliacao_final/etapa4_ml/modelo_fraude.py)
+- [Explicação dos modelos](Avaliacao_final/etapa4_ml/Explicacao.md)
 
 ## 13. Conclusão
 
